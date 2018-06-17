@@ -10,6 +10,14 @@
     margin-right: -65px;
   }
 
+  &--img-middle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
   &--gutters-large {
     margin-right: -100px;
   }
@@ -92,6 +100,12 @@
 
     &__large-8--smaller {
       width: 63%;
+    }
+
+    &__large-12 {
+      float: left;
+      width: 100%;
+      padding-top: 100px;
     }
 
   }
